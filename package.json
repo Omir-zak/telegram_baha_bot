@@ -1,0 +1,15 @@
+{
+  "name": "pomodoro__bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "node js/index.js",
+    "deploy": "git add . && git commit -am 'deploy' && git push origin master && git push heroku master"
+  },
+  "author": "Bakdaulet Omirzak",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
